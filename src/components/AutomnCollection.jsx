@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { MoveRight } from "lucide-react";
 import reseda16 from "/reseda (16).jpeg";
-
 import GridAutomnGallery from "./GridAutomnGallery";
 
 export default function AutomnCollection() {

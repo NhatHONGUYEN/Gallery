@@ -1,6 +1,7 @@
 import Introduction from "./Introduction";
 import WinterCollection from "./WinterCollection";
 import AutomnCollection from "./AutomnCollection";
+import NatureMorteCollection from "./NatureMorteCollection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Introduction />
       <WinterCollection />
       <AutomnCollection />
+      <NatureMorteCollection />
     </div>
   );
 }
