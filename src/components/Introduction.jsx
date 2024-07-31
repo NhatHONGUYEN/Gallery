@@ -21,12 +21,12 @@ export default function Introduction() {
 
         <div className="w-full lg:w-1/2 flex flex-col px-10 justify-between ">
           <div>
-            <p className="text-3xl font-bold  font-humane tracking-tighter">
+            <h2 className="text-3xl font-bold  font-humane tracking-tighter">
               PHOTOGRAPHIE À LOS ANGELES PAR SOFIA PARAZI
-            </p>
+            </h2>
           </div>
           <div>
-            <p className="font-mono pb-20">
+            <p className="font-mono text-sm pb-20">
               Basée à Los Angeles, Sofia Parazi est photographe, directrice de
               la photographie et directrice artistique. Son jeu avec la lumière
               et les ombres définit son style unique. Pour Sofia, les photos
