@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="navbar sticky bg-base-100 border-b border-gray-800 uppercase">
-      <div className="flex w-full  justify-between items-center">
-        <Link to={"/"} className="btn btn-ghost text-xl">
+      <div className="flex w-screen  justify-between items-center">
+        <Link to={"/"} className="btn btn-ghost ">
           Reseda photographie
         </Link>
         <div>
