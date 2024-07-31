@@ -1,3 +1,10 @@
 export default function Home() {
-  return <div className="font-humane font-bold text-3xl">COUCOU</div>;
+  return (
+    <div className="w-full h-full">
+      <div>
+        <h1>RESEDA</h1>
+        <div></div>
+      </div>
+    </div>
+  );
 }
