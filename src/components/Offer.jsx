@@ -1,4 +1,5 @@
 import { Dot } from "lucide-react";
+import Footer from "./Footer";
 
 export default function Offer() {
   const offerData = [
@@ -44,7 +45,7 @@ export default function Offer() {
     {
       id: 3,
       title: "PACK PROFESSIONNEL",
-      image: "/reseda (1).jpg",
+      image: "/reseda (19).jpg",
       packList: [
         "Séance de 3 heures",
         "Changements de vêtements illimités",
@@ -91,6 +92,7 @@ export default function Offer() {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
