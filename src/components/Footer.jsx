@@ -13,6 +13,12 @@ export default function Footer() {
           <FooterForm />
           <FooterNavigation />
         </div>
+
+        <div>
+          <h3 className="text-gray-50 font-humane tracking-tighter font-extrabold text-[200px]">
+            RESEDA
+          </h3>
+        </div>
         <FooterCompanyName />
       </div>
     </footer>

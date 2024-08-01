@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const LinkList = ({ links }) => (
-  <ul role="list" className="mt-6 uppercase space-y-4">
+  <ul role="list" className="mt-6 uppercase ">
     {links.map((item) => (
       <li key={item.name}>
         {item.isExternal ? (

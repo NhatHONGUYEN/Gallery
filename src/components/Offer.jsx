@@ -1,4 +1,5 @@
 import { Dot } from "lucide-react";
+import Footer from "./Footer";
 
 export default function Offer() {
   const offerData = [
@@ -91,6 +92,7 @@ export default function Offer() {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

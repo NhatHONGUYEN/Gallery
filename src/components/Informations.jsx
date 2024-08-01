@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 export default function Informations() {
   return (
     <section className="h-screen w-screen">
@@ -74,6 +76,7 @@ export default function Informations() {
           </div>
         </div>
       </div>
+      <Footer />
     </section>
   );
 }
