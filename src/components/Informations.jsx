@@ -6,7 +6,7 @@ export default function Informations() {
           <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
             <img
               alt=""
-              src="../../public/reseda (2).jpeg"
+              src="/reseda (2).jpeg"
               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>

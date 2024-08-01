@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import LinkList from "../reusable ui/LinkList";
 import { navigation } from "../utils/navigation";
 
 export default function FooterNavigation() {
@@ -9,37 +9,13 @@ export default function FooterNavigation() {
           <h3 className="text-sm font-extrabold leading-6 text-white">
             PLAN DU SITE
           </h3>
-          <ul role="list" className="mt-6 uppercase  space-y-4">
-            {navigation.linkToPage.map((item) => (
-              <li key={item.name}>
-                <Link
-                  to={item.href}
-                  className="text-sm leading-6 text-gray-300 hover:text-white"
-                >
-                  {item.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <LinkList links={navigation.linkToPage} />
         </div>
         <div className="font-humane">
           <h3 className="text-sm font-semibold leading-6 text-white">
             NOUS SUIVRE
           </h3>
-          <ul role="list" className="mt-6 uppercase  space-y-4">
-            {navigation.socialMedia.map((item) => (
-              <li key={item.name}>
-                <a
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm leading-6 text-gray-300 hover:text-white"
-                >
-                  {item.name}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <LinkList links={navigation.socialMedia} />
         </div>
       </div>
     </div>
