@@ -44,7 +44,7 @@ export default function Offer() {
     {
       id: 3,
       title: "PACK PROFESSIONNEL",
-      image: "/reseda (1).jpg",
+      image: "/reseda (19).jpg",
       packList: [
         "Séance de 3 heures",
         "Changements de vêtements illimités",
